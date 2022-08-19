@@ -1,0 +1,32 @@
+.logo {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: inherit;
+}
+.logo__img {
+	width: 40px;
+}
+.logo__text {
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-left: 15px;
+	line-height: 1.35;
+}
+.logo__title,
+.logo__sub {
+	display: block;
+}
+
+/*Queries*/
+@media screen and (max-width: 600px) {
+	.logo__text {
+		font-size: 1.2rem;
+		margin-left: 1rem;
+	}
+
+	.logo__img {
+		width: 35px;
+	}
+}

@@ -1,0 +1,72 @@
+.info {
+	padding: 5rem 0;
+	background: #fafafa;
+}
+
+.info__title {
+	font-size: 4.2rem;
+	margin-bottom: 3rem;
+	color: #4c5a9b;
+}
+
+.info__text {
+	font-size: 1.75rem;
+	line-height: 1.5;
+	margin-bottom: 2rem;
+	width: 90%;
+}
+
+.info__text:last-child {
+	margin-bottom: 0;
+}
+
+/*Quries*/
+
+@media screen and (max-width: 1140px) {
+	.info__title {
+		font-size: 3.8rem;
+	}
+}
+
+@media screen and (max-width: 874px) {
+	.info__title {
+		font-size: 3.4rem;
+	}
+
+	.info__text {
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.info__title {
+		font-size: 3rem;
+		margin-bottom: 2rem;
+	}
+
+	.info__text {
+		font-size: 1.65rem;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.info__title {
+		font-size: 2.6rem;
+		margin-bottom: 2rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.info__title {
+		font-size: 2.5rem;
+		margin-bottom: 2rem;
+	}
+}
+
+@media screen and (max-width: 532px) {
+	.info__title {
+		font-size: 2.4rem;
+		margin-bottom: 2rem;
+		width: 90%;
+	}
+}

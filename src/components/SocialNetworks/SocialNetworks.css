@@ -1,0 +1,30 @@
+.social-networks {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+}
+
+.social-networks__link {
+	display: flex;
+	align-items: center;
+	background: transparent;
+	color: #4c5a9b;
+	border-radius: 0.3rem;
+	border: 1px solid #eee;
+	margin-bottom: 2rem;
+	box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.35);
+	cursor: pointer;
+	overflow: hidden;
+	padding: 1rem 3.5rem;
+	text-decoration: none;
+}
+
+.social-networks__icon {
+	display: block;
+	font-size: 2.5rem;
+	margin-right: 1.5rem;
+}
+
+.social-networks__icon--telegram {
+	color: #0088cc;
+}

@@ -1,0 +1,93 @@
+.extra-services {
+    padding: 7.5rem 0;
+}
+
+.extra-services__title {
+    font-size: 4.2rem;
+    margin-bottom: 3rem;
+}
+
+.extra-services__cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 -1.5rem;
+}
+
+.extra-services__card {
+    width: calc((100% / 3) - 3rem);
+    padding: 5rem 4rem;
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+    background: #fff;
+    border: 1.5px solid #eee;
+    border-radius: 0.5rem;
+    margin: 1.5rem;
+    box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.1);
+}
+
+.extra-services__card:hover {
+    background: #fefefe;
+}
+
+.extra-services__card:hover .extra-services__service-name {
+    color: #4c5a9b;
+}
+
+.extra-services__icon {
+    margin-bottom: 3rem;
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.extra-services__service-name {
+    font-size: 1.75rem;
+    font-weight: 400;
+    transition: 400ms ease-in-out;
+    line-height: 1.5;
+}
+
+/*Queries*/
+@media screen and (max-width: 908px) {
+    .extra-services__card {
+        width: calc((100% / 2) - 3rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .extra-services {
+        background: #fafafa;
+        padding: 3rem 0 1rem;
+    }
+
+    .extra-services__title {
+        font-size: 3.6rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .extra-services__title {
+        font-size: 2.8rem;
+    }
+
+    .extra-services__card {
+        padding: 3rem;
+    }
+
+    .extra-services__service-name {
+        font-size: 1.65rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .extra-services__card {
+        width: 87.5%;
+        margin: 1rem auto;
+        padding: 5rem 3rem;
+    }
+
+    .extra-services__service-name {
+        font-size: 1.6rem;
+    }
+}

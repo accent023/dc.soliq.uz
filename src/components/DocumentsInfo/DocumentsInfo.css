@@ -1,0 +1,45 @@
+.documents-info {
+	display: flex;
+	margin-bottom: 3rem;
+}
+
+.documents-info__block {
+	width: 40%;
+}
+
+.documents-info__title {
+	font-size: 3rem;
+	margin-bottom: 0.5rem;
+	color: #4c5a9b;
+}
+
+.documents-info__text {
+	line-height: 1.5;
+}
+
+.documents-info__icon {
+	font-size: 10rem;
+	display: block;
+	margin-left: -0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+	.documents-info__title {
+		font-size: 2.2rem;
+		line-height: 1.2;
+		margin-bottom: 0;
+	}
+
+	.documents-info__block {
+		width: 100%;
+	}
+
+	.documents-info__icon {
+		width: 5rem;
+		height: 5rem;
+	}
+
+	.documents-info__text {
+		font-size: 1.4rem;
+	}
+}

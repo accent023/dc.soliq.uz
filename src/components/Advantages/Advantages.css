@@ -1,0 +1,39 @@
+.advantages {
+    padding: 5rem 0;
+    background: #fff;
+}
+
+.advantages__title {
+    font-size: 4.2rem;
+    margin-bottom: 7.5rem;
+}
+
+.advantages__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -2.5rem;
+}
+
+/*Queries*/
+@media screen and (max-width: 768px) {
+    .advantages__title {
+        font-size: 3.2rem;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .advantages__cards {
+        flex-flow: column;
+        margin: 0;
+    }
+
+    .advantages {
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .advantages__title {
+        font-size: 2.75rem;
+    }
+}

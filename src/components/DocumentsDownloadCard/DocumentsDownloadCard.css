@@ -1,0 +1,96 @@
+.documents-download-card {
+	padding: 1rem;
+	width: calc((100% / 4) - 2rem);
+	font-family: sans-serif;
+	border: 1px solid #eee;
+	box-shadow: 0 0 7px -3px rgba(0, 0, 0, 0.3);
+	border-radius: 1.5rem;
+	margin: 1rem;
+}
+
+.documents-download-card span {
+	display: block;
+	font-size: 1.3rem;
+	line-height: 1.5;
+	color: #555;
+}
+
+.documents-download-card__body {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 1rem;
+}
+
+.documents-download-card__foot {
+	display: flex;
+	flex-direction: column;
+}
+
+.documents-download-card__date {
+	color: #777;
+}
+
+.documents-download-card__title {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #4c5a9b;
+}
+
+.documents-download-card__props {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.documents-download-card__btn {
+	padding: 0.5em 1.5em;
+	background: #4c5a9b;
+	color: #fff;
+	margin-top: 1rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: 400ms ease-in-out;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.4rem;
+	align-self: flex-end;
+}
+
+.documents-download-card__btn:hover {
+	background: #56c1ab;
+}
+
+.documents-download-card__format {
+	display: flex;
+	align-items: center;
+}
+
+.xlsx,
+.doc,
+.docx,
+.pdf,
+.zip,
+.rar {
+	display: inline-block;
+	font-size: 2.5rem;
+}
+
+@media screen and (max-width: 940px) {
+	.documents-download-card {
+		padding: 0.5rem;
+		width: calc((100% / 3) - 2rem);
+	}
+
+	.documents-download-card__btn {
+		padding: 0.5em 1.5em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.documents-download-card {
+		padding: 1rem;
+		width: 100%;
+	}
+}
